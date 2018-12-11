@@ -1,0 +1,7 @@
+[package]
+name = "atcoder"
+version = "0.1.0"
+authors = ["shuhei.yamashita <shuhei.yamashita@ozinter.jp>"]
+edition = "2018"
+
+[dependencies]
