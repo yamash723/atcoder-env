@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  golang:
+    build: ./golang
+    volumes:
+      - ./golang/:/usr/src/myapp
+  rust:
+    build: ./rust
+    volumes:
+      - ./rust/:/usr/src/myapp
